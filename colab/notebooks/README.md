@@ -17,29 +17,13 @@ This notebook runs the AIFSv2 Single forecast model in Google Colab, it is based
 
 - Google Colab
 - CUDA-capable GPU
-- Python 3.12.x (recommended for the bundled FlashAttention binaries)
+- Python 3.12.x runtime (recommended for the bundled FlashAttention binaries)
 
 ## Supported runtime
 
-| Runtime Version | Python | Status | GPUs Tested |
+| Runtime Version | Python Version | Supported | GPUs Tested |
 | --- | --- | --- | --- |
 | 2026.07 | 3.12.13 | ✅ | L4 |
-
-## Run order
-
-Open `aifs_v2.ipynb` and run the cells in order from top to bottom.
-
-The notebook is organized into sections:
-
-1. install dependencies
-2. import libraries
-3. validate runtime and GPU
-4. download initial conditions
-5. transform fields for the model
-6. create the runner and run the forecast
-7. save the output to Zarr
-8. copy results to Drive if desired
-9. plot forecasts
 
 ## Output
 
