@@ -22,7 +22,7 @@ from anemoi.inference.outputs.printer import print_state
 
 from ecmwf.opendata import Client as OpendataClient
 
-COPY_TO_DRIVE = True # Set to True to copy the forecast output to Google Drive if available
+COPY_TO_DRIVE = False # Set to True to copy the forecast output to Google Drive if available
 
 # Helper functions
 
