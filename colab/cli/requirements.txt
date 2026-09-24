@@ -1,0 +1,16 @@
+anemoi-inference[huggingface]==0.8.3
+anemoi-models==0.9.3
+anemoi-utils==0.4.35.post3
+torch==2.9.0
+torchvision==0.24.0
+torchaudio==2.9.0
+torchcodec==0.9.0
+torch-geometric==2.8.0
+earthkit-regrid==0.5.1
+ecmwf-opendata==0.3.29
+earthkit-data<1.0.0
+earthkit-utils>=1.0,<2.0
+earthkit.geo
+zarr
+cartopy
+https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.0/flash_attn-2.8.3+cu128torch2.9-cp313-cp313-linux_x86_64.whl
